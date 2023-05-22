@@ -3,7 +3,7 @@
 ### Tasks
 #### Resource maximisation
 (9608/32/M/J/19)
-#### Memory:
+##### Memory:
  - Move frequently used instructions to cache for faster retrieval
  - Partition memory to allow multi-tasking
  - Use virtual memory with paging or segmentation

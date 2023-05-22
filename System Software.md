@@ -137,7 +137,7 @@ Here you could start from left and work until the arrow splits. At that point yo
 **Recursion example (9618/32/O/N/21):**
 ![BNF_recursion_question.png](BNF_recursion_question.png)
 - Split the character part and the loopy part and deal with them separately (stay away from using spaces inside <>)
-- `<code> ::= <digit>|<capital_letter>|<digit><code>|<capital_letter><code>
+- `<code> ::= <digit>|<capital_letter>|<digit><code>|<capital_letter><code>`
 - `<password> ::= <character><code>`
 - Think about password as being composed of a character plus a bunch of stuff that repeats
 - Think about how you can't have `<character>` be in the "stuff" because it appears only once in the password

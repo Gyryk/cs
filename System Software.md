@@ -3,12 +3,12 @@
 ### Tasks
 #### Resource maximisation
 (9608/32/M/J/19)
-Memory:
+#### Memory:
  - Move frequently used instructions to cache for faster retrieval
  - Partition memory to allow multi-tasking
  - Use virtual memory with paging or segmentation
  - Clear parts of main memory as soon as process that was using those parts finishes
-Disk:
+##### Disk:
 - Compression utility for compressing files so that they use less space and more files can be stored
 - Defragmentation utility to make files occupy contiguous disk space to reduce file access time
 #### UI provision
